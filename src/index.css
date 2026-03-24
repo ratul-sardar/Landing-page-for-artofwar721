@@ -3,6 +3,11 @@
     themes: light --default;
 }
 
+@theme {
+    --color-brand-primary: #15cfe2;
+    --color-brand-dark: black;
+}
+
 * {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -16,4 +21,21 @@ h5,
 h6 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: clamp(2.25rem, 1.1786rem + 2.6786vw, 3.75rem);
+}
+
+h2 {
+    font-size: clamp(1.875rem, 1.6071rem + 0.6696vw, 2.25rem);
+}
+
+h3 {
+    font-size: 1.875rem;
+}
+
+p {
+    color: rgb(71, 85, 105);
 }
