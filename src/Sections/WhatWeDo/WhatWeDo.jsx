@@ -39,7 +39,7 @@ const body6 = "Support for releases, DSP delivery, and rights management.";
 export default function WhatWeDo() {
   return (
     <>
-      <section className="cssContainer">
+      <section id="What We Do Section" className="cssContainer py-16 md:py-20">
         {/* What We Do Section*/}
 
         {/* Section Heading*/}
@@ -56,36 +56,42 @@ export default function WhatWeDo() {
         {/* Info Cards*/}
         <div className="mt-10 grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           <Card
+            shadow={true}
             icon={icon1}
             subHeading={subHeading1}
             heading={heading1}
             body={body1}
           ></Card>
           <Card
+            shadow={true}
             icon={icon2}
             subHeading={subHeading2}
             heading={heading2}
             body={body2}
           ></Card>
           <Card
+            shadow={true}
             icon={icon3}
             subHeading={subHeading3}
             heading={heading3}
             body={body3}
           ></Card>
           <Card
+            shadow={true}
             icon={icon4}
             subHeading={subHeading4}
             heading={heading4}
             body={body4}
           ></Card>
           <Card
+            shadow={true}
             icon={icon5}
             subHeading={subHeading5}
             heading={heading5}
             body={body5}
           ></Card>
           <Card
+            shadow={true}
             icon={icon6}
             subHeading={subHeading6}
             heading={heading6}
