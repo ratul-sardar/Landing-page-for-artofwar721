@@ -4,7 +4,7 @@ export default function Card({ shadow, icon, subHeading, heading, body }) {
   return (
     <>
       <div
-        className={`card card-md reveal rounded-2xl border border-slate-200 bg-white ${shadow ? "shadow-lg" : ""}`}
+        className={`card card-md rounded-2xl border border-slate-200 bg-white ${shadow ? "shadow-lg" : ""}`}
       >
         <div className="card-body">
           {/* card Icon*/}

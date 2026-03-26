@@ -50,6 +50,7 @@ p {
     padding-right: 1.5rem;
 }
 
+/*Component classes*/
 .card-body {
     flex: none;
     gap: 0;
