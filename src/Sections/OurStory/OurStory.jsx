@@ -1,3 +1,4 @@
+import Badge from "../../Components/Badge/Badge";
 import Button from "../../Components/Button/Button";
 import Card from "../../Components/Cards/Card";
 import brandLogo from "../../assets/Dummy Brand Logo.jpg";
@@ -41,8 +42,10 @@ export default function OurStory() {
                   productions at every budget.
                 </p>
                 <div className="mt-4 flex gap-3">
-                  <Button></Button>
-                  <Button></Button>
+                  <Button background={true} primary={true}>
+                    Explore catalog
+                  </Button>
+                  <Button primary={true}>Talk to us</Button>
                 </div>
               </div>
             </div>
