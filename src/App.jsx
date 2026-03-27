@@ -1,4 +1,5 @@
 import Brief from "./Sections/Brief/Brief";
+import ContactUs from "./Sections/ContactUs/ContactUs";
 import Faq from "./Sections/Faq/Faq";
 import HowItWorks from "./Sections/HowItWorks/HowItWorks";
 import OurStory from "./Sections/OurStory/OurStory";
@@ -14,6 +15,7 @@ function App() {
       <Faq></Faq>
       <Pricing></Pricing>
       <Brief></Brief>
+      <ContactUs></ContactUs>
     </>
   );
 }
