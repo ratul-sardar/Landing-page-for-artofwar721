@@ -11,8 +11,8 @@ export default function NavBar() {
           <div className="navbar-start">
             <a href="#" className="inline-flex items-center gap-3">
               <img src={logo} alt="CueHits Logo" className="" width="82px" />
-              <span class="font-display font-extrabold tracking-tight text-xl">
-                <span class="text-brand-primary">Cue</span> Hits
+              <span className="font-display font-extrabold tracking-tight text-xl">
+                <span className="text-brand-primary">Cue</span> Hits
               </span>
             </a>
           </div>

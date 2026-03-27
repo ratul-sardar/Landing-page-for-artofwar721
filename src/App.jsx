@@ -7,6 +7,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import OurStory from "./Sections/OurStory/OurStory";
 import Pricing from "./Sections/Pricing/Pricing";
 import WhatWeDo from "./Sections/WhatWeDo/WhatWeDo";
+import Footer from "./Sections/Footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         <Brief></Brief>
         <ContactUs></ContactUs>
       </main>
+
+      <Footer></Footer>
     </>
   );
 }
