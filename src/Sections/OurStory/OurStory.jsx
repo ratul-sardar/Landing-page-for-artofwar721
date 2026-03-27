@@ -1,6 +1,6 @@
 import Button from "../../Components/Button/Button";
 import Card from "../../Components/Cards/Card";
-import brandLogo from "../../assets/Dummy Brand Logo.jpg";
+import brandLogo from "../../assets/CueHitsLogo.png";
 
 //Card Headings
 
@@ -25,11 +25,7 @@ export default function OurStory() {
           <div className="lg:col-span-5">
             <div className="card card-md rounded-2xl border border-slate-200 bg-white shadow-lg">
               <div className="card-body">
-                <img
-                  src={brandLogo}
-                  alt="Brand Logo"
-                  className="h-24 w-24 object-cover rounded-full ring-1 ring-slate-200"
-                />
+                <img src={brandLogo} alt="Brand Logo" width="150px" />
                 <h2 className="mt-4 font-display text-3xl font-bold tracking-tight">
                   Our Story
                 </h2>

@@ -22,7 +22,7 @@ export default function Faq() {
     <>
       <section id="Faq Section" className="">
         <div className="cssContainer py-16 sm:py-20 flex flex-col items-center">
-          <Badge></Badge>
+          <Badge>Frequently Asked Questions</Badge>
 
           {/* Section Heading*/}
           <div className="text-center mt-4">

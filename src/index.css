@@ -15,7 +15,6 @@
 
 /*Font and Texts*/
 
-h1,
 h2,
 h3,
 h4,
@@ -27,6 +26,7 @@ h6 {
 }
 
 h1 {
+    font-weight: 800;
     font-size: clamp(2.25rem, 1.1786rem + 2.6786vw, 3.75rem);
 }
 
