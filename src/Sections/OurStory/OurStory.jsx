@@ -1,4 +1,3 @@
-import Badge from "../../Components/Badge/Badge";
 import Button from "../../Components/Button/Button";
 import Card from "../../Components/Cards/Card";
 import brandLogo from "../../assets/Dummy Brand Logo.jpg";

@@ -1,3 +1,4 @@
+import Brief from "./Sections/Brief/Brief";
 import Faq from "./Sections/Faq/Faq";
 import HowItWorks from "./Sections/HowItWorks/HowItWorks";
 import OurStory from "./Sections/OurStory/OurStory";
@@ -12,6 +13,7 @@ function App() {
       <HowItWorks></HowItWorks>
       <Faq></Faq>
       <Pricing></Pricing>
+      <Brief></Brief>
     </>
   );
 }
