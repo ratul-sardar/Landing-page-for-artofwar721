@@ -81,17 +81,17 @@ export default function WeHelp() {
 
   useEffect(() => {
     const startAutoplay = () => {
-      startTimeRef.current = Date.now();
+      startTimeRef.current = performance.now();
 
-      const updateProgress = () => {
-        const elapsed = Date.now() - startTimeRef.current;
+      const updateProgress = (now) => {
+        const elapsed = now - startTimeRef.current;
         const newProgress = Math.min(100, (elapsed / DURATION) * 100);
 
         setProgress(newProgress);
 
         if (elapsed >= DURATION) {
           setActiveIndex((current) => (current + 1) % services.length);
-          startTimeRef.current = Date.now();
+          startTimeRef.current = now;
           setProgress(0);
         }
 
@@ -113,9 +113,8 @@ export default function WeHelp() {
   const handleTabClick = (index) => {
     setActiveIndex(index);
     setProgress(0);
-    startTimeRef.current = Date.now();
+    startTimeRef.current = performance.now();
   };
-
   const activeService = services[activeIndex];
 
   return (
