@@ -15,7 +15,7 @@ export default function NavBar() {
     { name: "Contact", href: "#ContactUs" },
   ];
 
-  const ctaLink = "#";
+  const ctaLink = "https://search.cuehits.com/home";
 
   return (
     <div

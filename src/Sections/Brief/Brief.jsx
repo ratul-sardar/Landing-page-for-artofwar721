@@ -1,6 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import Button from "../../Components/Button/Button";
 
+const ctaLink = "https://search.cuehits.com/home";
+
 export default function Brief() {
   return (
     <>
@@ -17,7 +19,7 @@ export default function Brief() {
                 </p>
               </div>
               <div className="md:justify-self-end">
-                <Button background={true}>
+                <Button background={true} link={ctaLink}>
                   Start the brief <ArrowRight size={20} />
                 </Button>
               </div>
