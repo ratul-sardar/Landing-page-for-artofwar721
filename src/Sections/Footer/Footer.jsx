@@ -44,9 +44,9 @@ export default function Footer() {
 
           {/* Company Column */}
           <div className="flex flex-col gap-3">
-            <h4 className="font-semibold text-base-content text-sm tracking-wide">
+            <p className="font-semibold text-base-content text-md tracking-wide">
               Company
-            </h4>
+            </p>
             <ul className="flex flex-col gap-2">
               {["About", "Services", "How it works", "FAQ"].map((item) => (
                 <li key={item}>
@@ -63,9 +63,9 @@ export default function Footer() {
 
           {/* Resources Column */}
           <div className="flex flex-col gap-3">
-            <h4 className="font-semibold text-base-content text-sm tracking-wide">
+            <p className="font-semibold text-base-content text-sm tracking-wide">
               Resources
-            </h4>
+            </p>
             <ul className="flex flex-col gap-2">
               {["Search catalog", "Licensing options", "Submit your music"].map(
                 (item) => (
@@ -84,9 +84,9 @@ export default function Footer() {
 
           {/* Stay in touch Column */}
           <div className="flex flex-col gap-4">
-            <h4 className="font-semibold text-base-content text-sm tracking-wide">
+            <p className="font-semibold text-base-content text-sm tracking-wide">
               Stay in touch
-            </h4>
+            </p>
 
             {/* Email Input */}
             <div className="join">
