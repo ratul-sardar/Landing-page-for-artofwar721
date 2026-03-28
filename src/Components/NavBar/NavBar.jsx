@@ -15,6 +15,8 @@ export default function NavBar() {
     { name: "Contact", href: "#ContactUs" },
   ];
 
+  const ctaLink = "#";
+
   return (
     <div className="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-[100]">
       <div className="cssContainer">
@@ -22,11 +24,11 @@ export default function NavBar() {
           {/* Site Logo */}
           <div className="navbar-start">
             <a href="#" className="inline-flex items-center gap-2 group">
-              <div className="relative w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl bg-slate-50 border border-slate-100 transition-all duration-300 group-hover:scale-105">
+              <div className="relative w-20 h-20 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl bg-slate-50 border border-slate-100 transition-all duration-300 group-hover:scale-105">
                 <img
                   src={logo}
                   alt="CueHits Logo"
-                  className="w-8 h-8 object-contain"
+                  className="w-20 h-20 object-contain"
                 />
               </div>
               <span className="font-display font-black tracking-tight text-xl sm:text-2xl text-slate-900">
@@ -54,7 +56,7 @@ export default function NavBar() {
           {/* Desktop Nav Cta & Mobile Toggle */}
           <div className="navbar-end gap-2">
             <div className="hidden sm:flex">
-              <Button background={true} rounded={true}>
+              <Button background={true} rounded={true} link={ctaLink}>
                 <LoaderCircle size={18} className="animate-spin-slow" />
                 <span className="hidden md:inline">Browse Catalog</span>
                 <span className="md:hidden">Catalog</span>
@@ -103,7 +105,7 @@ export default function NavBar() {
             <p className="text-sm font-bold text-slate-400 uppercase tracking-widest">
               Ready to start?
             </p>
-            <Button background={true} rounded={true}>
+            <Button background={true} rounded={true} link={ctaLink}>
               <LoaderCircle size={20} className="animate-spin-slow" />
               Open Music Catalog
             </Button>
