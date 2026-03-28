@@ -18,20 +18,22 @@ export default function NavBar() {
   const ctaLink = "#";
 
   return (
-    <div className="bg-white/80 backdrop-blur-md border-b border-slate-100 sticky top-0 z-[100]">
+    <div
+      className={`${isOpen ? "bg-white" : "bg-white/80 backdrop-blur-md"} border-b border-slate-100 sticky top-0 z-[100]`}
+    >
       <div className="cssContainer">
         <div className="navbar px-0 h-20">
           {/* Site Logo */}
           <div className="navbar-start">
             <a href="#" className="inline-flex items-center gap-2 group">
-              <div className="relative w-20 h-20 sm:w-12 sm:h-12 flex items-center justify-center rounded-xl bg-slate-50 border border-slate-100 transition-all duration-300 group-hover:scale-105">
+              <div className="relative w-12 h-12 sm:w-12 sm:h-12 lg:w-20 lg:h-20 flex items-center justify-center  transition-all duration-300 group-hover:scale-105">
                 <img
                   src={logo}
                   alt="CueHits Logo"
-                  className="w-20 h-20 object-contain"
+                  className="w-10 h-10 sm:w-10 sm:h-10 lg:w-20 lg:h-20 object-contain"
                 />
               </div>
-              <span className="font-display font-black tracking-tight text-xl sm:text-2xl text-slate-900">
+              <span className="font-display font-black tracking-tight text-xl sm:text-2xl lg:text-3xl text-slate-900">
                 <span className="text-brand-primary">Cue</span>Hits
               </span>
             </a>
