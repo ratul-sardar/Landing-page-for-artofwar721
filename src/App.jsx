@@ -10,6 +10,7 @@ import WhatWeDo from "./Sections/WhatWeDo/WhatWeDo";
 import Footer from "./Sections/Footer/Footer";
 import WhereOurMusicIsUsed from "./Sections/WhereOurMusicIsUsed/WhereOurMusicIsUsed";
 import OurServices from "./Sections/OurServices/OurServices";
+import WeHelp from "./Sections/WeHelp/WeHelp";
 
 function App() {
   return (
@@ -22,12 +23,14 @@ function App() {
       <main>
         <Hero></Hero>
         <WhatWeDo></WhatWeDo>
+        <WeHelp></WeHelp>
         <OurStory></OurStory>
         <OurServices></OurServices>
         <HowItWorks></HowItWorks>
         <WhereOurMusicIsUsed></WhereOurMusicIsUsed>
         <Faq></Faq>
         <Pricing></Pricing>
+
         <Brief></Brief>
         <ContactUs></ContactUs>
       </main>
