@@ -4,6 +4,18 @@ import { FaXTwitter } from "react-icons/fa6";
 import Button from "../../Components/Button/Button";
 import logo from "../../assets/CueHitsLogo.png";
 
+//Cta Link
+const ctaLink1 = "https://search.cuehits.com/home";
+const ctaLink2 = "#ContactUs Section";
+
+//Footer Links
+const navLinks = [
+  { name: "Services", href: "#What We Do Section" },
+  { name: "About", href: "#Our Story Section" },
+  { name: "FAQ", href: "#Faq Section" },
+  { name: "Pricing", href: "#Pricing Section" },
+];
+
 export default function Footer() {
   return (
     <footer className="bg-base-100 border-t border-base-200">
@@ -37,8 +49,8 @@ export default function Footer() {
 
             {/* CTA Buttons */}
             <div className="flex gap-2 mt-1">
-              <Button>Catalog</Button>
-              <Button> Contact</Button>
+              <Button link={ctaLink1}>Catalog</Button>
+              <Button link={ctaLink2}> Contact</Button>
             </div>
           </div>
 
@@ -48,13 +60,13 @@ export default function Footer() {
               Company
             </p>
             <ul className="flex flex-col gap-2">
-              {["About", "Services", "How it works", "FAQ"].map((item) => (
-                <li key={item}>
+              {navLinks.map((link) => (
+                <li key={link.name}>
                   <a
-                    href="#"
-                    className="text-md text-base-content/60 hover:text-brand-primary transition-colors duration-200"
+                    href={link.href}
+                    className="hover:text-brand-primary transition-colors duration-200"
                   >
-                    {item}
+                    {link.name}
                   </a>
                 </li>
               ))}

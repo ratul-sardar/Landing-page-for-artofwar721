@@ -7,19 +7,19 @@ export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Services", href: "#OurServices" },
-    { name: "About", href: "#OurStory" },
-    { name: "Capabilities", href: "#WeHelp" },
-    { name: "FAQ", href: "#Faq" },
-    { name: "Pricing", href: "#Pricing" },
-    { name: "Contact", href: "#ContactUs" },
+    { name: "Services", href: "#What We Do Section" },
+    { name: "About", href: "#Our Story Section" },
+    { name: "Capabilities", href: "#OurServices" },
+    { name: "FAQ", href: "#Faq Section" },
+    { name: "Pricing", href: "#Pricing Section" },
+    { name: "Contact", href: "#ContactUs Section" },
   ];
 
   const ctaLink = "https://search.cuehits.com/home";
 
   return (
     <div
-      className={`${isOpen ? "bg-white" : "bg-white/80 backdrop-blur-md"} border-b border-slate-100 sticky top-0 z-[100]`}
+      className={`${isOpen ? "bg-white" : "bg-white/80 backdrop-blur-md"} border-b border-slate-100 sticky top-0 z-100`}
     >
       <div className="cssContainer">
         <div className="navbar px-0 h-20">

@@ -3,6 +3,8 @@ import { Check, ArrowRight } from "lucide-react";
 import Badge from "../../Components/Badge/Badge";
 import Button from "../../Components/Button/Button";
 
+const ctaLink = "https://search.cuehits.com/home";
+
 const services = [
   {
     id: "brief",
@@ -241,7 +243,12 @@ export default function WeHelp() {
                 </ul>
 
                 <div className="pt-4">
-                  <Button background primary rounded>
+                  <Button
+                    background={true}
+                    primary={true}
+                    rounded={true}
+                    link={ctaLink}
+                  >
                     Start a brief
                     <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
                   </Button>

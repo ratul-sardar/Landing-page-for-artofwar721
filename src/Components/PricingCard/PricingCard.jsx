@@ -5,7 +5,7 @@ export default function PricingCard({
   children,
   subtitle,
   bodyText,
-
+  ctaLink,
   price,
   features,
 }) {
@@ -45,7 +45,11 @@ export default function PricingCard({
 
           {/* Cta button*/}
           <div className="mt-6">
-            <Button primary={primary} background={primary ? true : false}>
+            <Button
+              primary={primary}
+              background={primary ? true : false}
+              link={ctaLink}
+            >
               {children}
             </Button>
           </div>

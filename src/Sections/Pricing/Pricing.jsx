@@ -2,6 +2,11 @@ import PricingCard from "../../Components/PricingCard/PricingCard";
 
 //Content Area
 
+// Cta links
+const ctaLink1 = "#ContactUs Section";
+const ctaLink2 = "#ContactUs Section";
+const ctaLink3 = "#ContactUs Section";
+
 // Sub titles
 const subtitle1 = "Online & social";
 const subtitle2 = "Broadcast & streaming";
@@ -58,6 +63,7 @@ export default function Pricing() {
               bodyText={bodyText1}
               price={price1}
               features={feature1}
+              ctaLink={ctaLink1}
             >
               Get a quote
             </PricingCard>
@@ -67,6 +73,7 @@ export default function Pricing() {
               bodyText={bodyText2}
               price={price2}
               features={feature2}
+              ctaLink={ctaLink2}
             >
               Request pricing
             </PricingCard>
@@ -75,6 +82,7 @@ export default function Pricing() {
               bodyText={bodyText3}
               price={price3}
               features={feature3}
+              ctaLink={ctaLink3}
             >
               Talk to licensing
             </PricingCard>

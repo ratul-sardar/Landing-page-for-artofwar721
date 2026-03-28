@@ -16,6 +16,11 @@ const body2 = "Score, source cues, trailerizations.";
 const body3 = "Brand anthems, cutdowns, social edits.";
 const body4 = "In‑game, UI, trailers, esports.";
 
+//Cta links
+
+const ctaLink = "https://search.cuehits.com/home";
+const ctaLink2 = "#ContactUs Section";
+
 export default function OurStory() {
   return (
     <>
@@ -37,10 +42,12 @@ export default function OurStory() {
                   productions at every budget.
                 </p>
                 <div className="mt-4 flex gap-3">
-                  <Button background={true} primary={true}>
+                  <Button background={true} primary={true} link={ctaLink}>
                     Explore catalog
                   </Button>
-                  <Button primary={true}>Talk to us</Button>
+                  <Button primary={true} link={ctaLink2}>
+                    Talk to us
+                  </Button>
                 </div>
               </div>
             </div>

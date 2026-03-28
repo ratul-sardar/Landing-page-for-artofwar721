@@ -4,6 +4,9 @@ import brandLogo from "../../assets/CueHitsLogo.png";
 import Button from "../../Components/Button/Button";
 import { LoaderCircle, Play } from "lucide-react";
 
+const ctaLink = "https://search.cuehits.com/home";
+const ctaLink2 = "#ContactUs Section";
+
 export default function Hero() {
   return (
     <>
@@ -38,10 +41,10 @@ export default function Hero() {
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-4">
-              <Button background={true} rounded={true}>
+              <Button background={true} rounded={true} link={ctaLink}>
                 <LoaderCircle size={20} /> Browse Catalog
               </Button>
-              <Button rounded={true}>
+              <Button rounded={true} link={ctaLink2}>
                 <Play size={16} /> Request a quote
               </Button>
             </div>

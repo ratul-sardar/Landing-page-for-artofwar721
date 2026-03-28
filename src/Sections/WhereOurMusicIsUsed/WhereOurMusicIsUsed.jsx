@@ -1,5 +1,4 @@
 import Button from "../../Components/Button/Button";
-
 import {
   Pie,
   PieChart,
@@ -8,6 +7,8 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+
+const ctaLink = "https://search.cuehits.com/home";
 
 const data = [
   { name: "TV", value: 35 },
@@ -75,7 +76,7 @@ export default function WhereOurMusicIsUsed() {
               for demo purposes.
             </p>
             <div className="mt-5">
-              <Button background={true} primary={true}>
+              <Button background={true} primary={true} link={ctaLink}>
                 Browse catalog
               </Button>
             </div>
