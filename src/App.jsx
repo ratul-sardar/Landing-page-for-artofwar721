@@ -8,6 +8,7 @@ import OurStory from "./Sections/OurStory/OurStory";
 import Pricing from "./Sections/Pricing/Pricing";
 import WhatWeDo from "./Sections/WhatWeDo/WhatWeDo";
 import Footer from "./Sections/Footer/Footer";
+import WhereOurMusicIsUsed from "./Sections/WhereOurMusicIsUsed/WhereOurMusicIsUsed";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <WhatWeDo></WhatWeDo>
         <OurStory></OurStory>
         <HowItWorks></HowItWorks>
+        <WhereOurMusicIsUsed></WhereOurMusicIsUsed>
         <Faq></Faq>
         <Pricing></Pricing>
         <Brief></Brief>
