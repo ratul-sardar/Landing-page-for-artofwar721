@@ -56,13 +56,13 @@ function App() {
       <main ref={mainRef}>
         <Hero></Hero>
         <WhatWeDo></WhatWeDo>
+        <WeHelp></WeHelp>
         <OurStory></OurStory>
         <OurServices></OurServices>
         <HowItWorks></HowItWorks>
         <WhereOurMusicIsUsed></WhereOurMusicIsUsed>
         <Faq></Faq>
         <Pricing></Pricing>
-        <WeHelp></WeHelp>
         <Brief></Brief>
         <ContactUs></ContactUs>
       </main>
