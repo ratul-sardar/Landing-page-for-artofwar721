@@ -34,7 +34,9 @@ export default function NavBar() {
                 />
               </div>
               <span className="font-display font-black tracking-tight text-xl sm:text-2xl lg:text-3xl text-slate-900">
-                <span className="text-brand-primary">Cue</span>Hits
+                <em>
+                  <span className="text-brand-primary">Cue</span>Hits
+                </em>
               </span>
             </a>
           </div>

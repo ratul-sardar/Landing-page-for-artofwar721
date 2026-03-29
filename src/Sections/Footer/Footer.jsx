@@ -36,8 +36,10 @@ export default function Footer() {
                 </div>
               </div>
               <span className="text-xl font-bold tracking-tight">
-                <span className="text-cyan-500">Cue</span>{" "}
-                <span className="text-base-content">Hits</span>
+                <em>
+                  <span className="text-cyan-500">Cue</span>{" "}
+                  <span className="text-base-content">Hits</span>
+                </em>
               </span>
             </div>
 
