@@ -35,11 +35,12 @@ export default function OurStory() {
                   Our Story
                 </h2>
                 <p className="mt-2">
-                  ACM Records has served the entertainment industry for decades,
-                  representing artists, writers, producers, and composers
-                  internationally. We provide premium music supervision, a deep
-                  sync‑ready catalog, and publishing administration to support
-                  productions at every budget.
+                  <em>CueHits</em> Music, a division of ACM Records, has served
+                  the entertainment industry for decades, representing artists,
+                  writers, producers, and composers internationally. We provide
+                  premium music supervision, a deep sync‑ready catalog, and
+                  publishing administration to support productions at every
+                  budget.
                 </p>
                 <div className="mt-4 flex gap-3">
                   <Button background={true} primary={true} link={ctaLink}>
