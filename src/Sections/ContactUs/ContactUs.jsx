@@ -1,3 +1,4 @@
+import { Mail, MapPin, Phone } from "lucide-react";
 import Button from "../../Components/Button/Button";
 
 export default function ContactUs() {
@@ -17,7 +18,9 @@ export default function ContactUs() {
           <div className="mt-6 space-y-3 text-sm">
             {/* Contact Link*/}
             <div className="flex items-center gap-3">
-              <div className="h-9 w-9 rounded-xl grid place-items-center bg-brand-primary/15 text-brand-dark"></div>
+              <div className="h-9 w-9 rounded-xl grid place-items-center bg-brand-primary/15 text-brand-dark">
+                <Mail size={20} />
+              </div>
               <a
                 href="mailto:info@acmrecords.com"
                 className=" hover:text-brand-primary"
@@ -28,7 +31,9 @@ export default function ContactUs() {
 
             {/* Contact Link*/}
             <div className="flex items-center gap-3">
-              <div className="h-9 w-9 rounded-xl grid place-items-center bg-brand-primary/15 text-brand-dark"></div>
+              <div className="h-9 w-9 rounded-xl grid place-items-center bg-brand-primary/15 text-brand-dark">
+                <Phone size={20} />
+              </div>
               <a href="tel:+1234567890" className=" hover:text-brand-primary">
                 +1234567890
               </a>
@@ -37,7 +42,9 @@ export default function ContactUs() {
             {/* Contact Link*/}
             <div className="flex items-center gap-3">
               <div className="flex items-center gap-3">
-                <div className="h-9 w-9 rounded-xl grid place-items-center bg-brand-primary/15 text-brand-dark"></div>
+                <div className="h-9 w-9 rounded-xl grid place-items-center bg-brand-primary/15 text-brand-dark">
+                  <MapPin size={20} />
+                </div>
                 <a
                   href="mailto:info@acmrecords.com"
                   className=" hover:text-brand-primary"

@@ -1,13 +1,20 @@
-import { LoaderCircle, Play, UserRoundKey } from "lucide-react";
+import {
+  BookImage,
+  BookOpenCheck,
+  LoaderCircle,
+  PencilRuler,
+  Play,
+  UserRoundKey,
+} from "lucide-react";
 import Card from "../../Components/Cards/Card";
 
 // Card Icons
 const icon1 = <Play size={20} />;
 const icon2 = <LoaderCircle size={20} />;
 const icon3 = <UserRoundKey size={20} />;
-const icon4 = <UserRoundKey size={20} />;
-const icon5 = <UserRoundKey size={20} />;
-const icon6 = <UserRoundKey size={20} />;
+const icon4 = <BookOpenCheck size={20} />;
+const icon5 = <BookImage size={20} />;
+const icon6 = <PencilRuler size={20} />;
 
 //Card SubHeadings
 const subHeading1 = "";
