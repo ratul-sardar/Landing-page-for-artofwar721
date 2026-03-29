@@ -35,8 +35,8 @@ export default function Hero() {
               <br /> that hits the mark
             </h1>
             <p className="mt-5 text-lg text-slate-600 max-w-xl">
-              ACM Records delivers sync‑ready music, custom composition, music
-              supervision, and publishing administration for TV, film,
+              <em>CueHits</em> delivers sync‑ready music, custom composition,
+              music supervision, and publishing administration for TV, film,
               advertising, games, podcasts, and brands.
             </p>
 
